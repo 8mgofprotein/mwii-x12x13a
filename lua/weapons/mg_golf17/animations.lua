@@ -127,7 +127,7 @@ SWEP.Animations = {
         }
     },
     ["Reload_Drummag_Fast"] = {
-        Sequences = {"reload_drummag_fast"},
+        Sequences = {"reload_drum_fast"},
         Length = 1,
         Fps = 30,
         MagLength = 0.53,

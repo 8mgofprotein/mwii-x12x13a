@@ -21,9 +21,9 @@ end
 
 SWEP.Customization = {
 
-    {"att_perk", "att_vm_pi_golf17_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_fastswap", "vm_pi_p220_fasttrigger"},
+    {"att_perk", "att_vm_pi_golf17_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_fastswap",},
 
-    {"att_stock", "att_vm_pi_golf17_stock"},
+    --{"att_stock", "att_vm_pi_golf17skel_stock"}, didnt have own anims yet 
 
     {"att_receiver"},
 	

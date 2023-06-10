@@ -17,6 +17,6 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.85
 	weapon.Animations.Reload_XmagLrg.Fps = weapon.Animations.Reload_XmagLrg.Fps * 0.85
 	weapon.Animations.Reload_Empty_XmagLrg.Fps = weapon.Animations.Reload_Empty_XmagLrg.Fps * 0.85
-	weapon.Animations.Inspect = weapon.Animations.Inspect_xmaglrg
+	weapon.Animations.Inspect = weapon.Animations.Inspect_Xmaglrg
 	weapon.Animations.Inspect_empty = weapon.Animations.Inspect_empty_xmaglrg
 end

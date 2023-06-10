@@ -5,8 +5,9 @@ ATTACHMENT.Icon = Material("viper/mw/attachments/icons/golf21/icon_attachment_pi
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
-    weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0.015, 0, 0.05)
-    weapon.ViewModelOffsets.Idle.Pos = Vector(-0.15, -0.5, -0.5)
+    weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, -8, 0)
+    weapon.ViewModelOffsets.Idle.Angles = Angle(0, 0, 9)
+	weapon.ViewModelOffsets.Idle.Pos = Vector(2, 0, 2)
     weapon.Zoom.Blur.EyeFocusDistance = 10
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.9
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.9
