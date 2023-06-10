@@ -38,10 +38,10 @@ SWEP.ParticleEffects = {
 SWEP.Primary.Sound = Sound("p24_pi_golf17_fire_plr")
 SWEP.Primary.Ammo = "Pistol"  
 SWEP.Primary.ClipSize = 17 
-SWEP.Primary.Automatic = false 
+SWEP.Primary.Automatic = true
 SWEP.Primary.BurstRounds = 1   
 SWEP.Primary.BurstDelay = 0
-SWEP.Primary.RPM = 364
+SWEP.Primary.RPM = 560
 SWEP.CanChamberRound = true  
 
 SWEP.Reverb = {
