@@ -41,7 +41,7 @@ SWEP.Primary.ClipSize = 17
 SWEP.Primary.Automatic = true
 SWEP.Primary.BurstRounds = 1   
 SWEP.Primary.BurstDelay = 0
-SWEP.Primary.RPM = 560
+SWEP.Primary.RPM = 1200
 SWEP.CanChamberRound = true  
 
 SWEP.Reverb = {
@@ -63,7 +63,7 @@ SWEP.Reverb = {
 
 SWEP.Firemodes = {
     [1] = {
-        Name = "Semi Auto",
+        Name = "Full Auto",
         OnSet = function()
             return nil
         end
