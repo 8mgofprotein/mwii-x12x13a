@@ -1,13 +1,13 @@
 ATTACHMENT.Base = "att_stock"
-ATTACHMENT.Name = "X16 Stock"
+ATTACHMENT.Name = "Skeleton Stock"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_stockskel.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/golf21/icon_attachment_pi_golf21_stock.vmt")
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
-    weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, -8, 0)
-    weapon.ViewModelOffsets.Idle.Angles = Angle(0, 0, 9)
-	weapon.ViewModelOffsets.Idle.Pos = Vector(2, 0, 2)
+	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(1.25, 1.2, 0)
+    weapon.ViewModelOffsets.Idle.Pos = Vector(0, 1.2, -0.1)
+	weapon.ViewModelOffsets.Sprint.Pos = weapon.ViewModelOffsets.Sprint.Pos + Vector(-2, -1, -1)
     weapon.Zoom.Blur.EyeFocusDistance = 10
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.9
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.9
@@ -16,7 +16,7 @@ function ATTACHMENT:Stats(weapon)
     weapon.Recoil.AdsMultiplier = weapon.Recoil.AdsMultiplier * 0.5
 end
 
---function ATTACHMENT:PostProcess(weapon)
---    BaseClass.PostProcess(self, weapon)
---    weapon:SetViewModel("models/viper/mw/weapons/v_glock_stock.mdl")
---end
+function ATTACHMENT:PostProcess(weapon)
+    BaseClass.PostProcess(self, weapon)
+    weapon:SetViewModel("models/kyo/vm_pi_x12_skelstock.mdl")
+end
