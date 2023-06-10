@@ -63,7 +63,7 @@ SWEP.Reverb = {
 
 SWEP.Firemodes = {
     [1] = {
-        Name = "Full Auto",
+        Name = "Semi Auto",
         OnSet = function()
             return nil
         end
