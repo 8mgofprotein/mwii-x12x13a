@@ -412,7 +412,7 @@ sound.Add({
 -- Sound: 77
 sound.Add({
 	name = "p24_pi_golf17_reload_045",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 6,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -478,7 +478,7 @@ sound.Add({
 -- Sound: 83
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_05",
-	channel = CHAN_WPNFOLEY + 9,
+	channel = CHAN_WPNFOLEY + 8,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -526,7 +526,7 @@ sound.Add({
 -- Sound: 108
 sound.Add({
 	name = "p24_pi_golf17_reload_fast_mag_out",
-	channel = CHAN_WPNFOLEY + 4,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -537,12 +537,22 @@ sound.Add({
 -- Sound: 109
 sound.Add({
 	name = "p24_pi_golf17_reload_fast_mag_hit",
-	channel = CHAN_WPNFOLEY + 5,
+	channel = CHAN_WPNFOLEY + 8,
 	
 	volume = 1,
 	pitch = {100,100},
 	sound = {
 		"zeron/mwii/golf/p24_pi_golf17_reload_fast_mag_hit.wav",
+		}
+})
+sound.Add({
+	name = "p24_pi_golf17_reload_fast_mag_in",
+	channel = CHAN_WPNFOLEY + 8,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mwii/golf/p24_pi_golf17_reload_fast_mag_in.wav",
 		}
 })
 -- Sound: 110
@@ -601,7 +611,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_drum_mag_in",
-	channel = CHAN_WPNFOLEY + 16,
+	channel = CHAN_WPNFOLEY + 6,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -671,7 +681,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_xmaglrg_mag_in",
-	channel = CHAN_WPNFOLEY + 16,
+	channel = CHAN_WPNFOLEY + 9,
 	
 	volume = 1,
 	pitch = {100,100},
