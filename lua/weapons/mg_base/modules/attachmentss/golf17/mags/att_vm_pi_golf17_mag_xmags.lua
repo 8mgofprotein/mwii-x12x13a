@@ -14,7 +14,7 @@ function ATTACHMENT:Stats(weapon)
 	weapon.Animations.Inspect = weapon.Animations.Inspect_xmag
 	weapon.Animations.Inspect_empty = weapon.Animations.Inspect_empty_xmag
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.95
-    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.5
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.95
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.96
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.96
     weapon.Animations.Reload.Fps = weapon.Animations.Reload.Fps * 0.9

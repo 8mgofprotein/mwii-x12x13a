@@ -33,4 +33,5 @@ end
 function ATTACHMENT:PostProcess(weapon)
     BaseClass.PostProcess(self, weapon)
     weapon:SetViewModel("models/kyo/vm_pi_x13a_genshinimpactbar.mdl")
+	weapon.HoldType = "Rifle"
 end

@@ -8,7 +8,7 @@ ATTACHMENT.Conversion = {
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
     "att_vm_reflex_east02", "att_vm_reflex_west02_tall", "att_vm_reflex_west03",
     "att_vm_thermal_east01", "att_vm_thermal_west01", "att_vm_thermal_east01_hybrid",
-    "att_vm_hybrid_west01", "att_vm_hybrid_west02", "att_vm_hybrid_west02_thermal", "att_vm_reflex_west04", "att_vm_2x_west01",
+    "att_vm_hybrid_west01", "att_vm_reflex_west04", "att_vm_2x_west01",
     "att_vm_hybrid_west03", "att_vm_4x_east01",
     "att_vm_4x_west01", "att_vm_4x_west02",
     "att_vm_scope_mike14", "att_vm_scope_vz"},
@@ -27,10 +27,11 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.85
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.85
     weapon.Recoil.AdsMultiplier = weapon.Recoil.AdsMultiplier * 0.5
-	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(1.66, 0, -0.15)
+	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0.41, 0, -0.185)
 end
 
 function ATTACHMENT:PostProcess(weapon)
     BaseClass.PostProcess(self, weapon)
-    weapon:SetViewModel("models/kyo/vm_pi_x13a_genshinimpactbar.mdl")
+    weapon:SetViewModel("models/kyo/vm_pi_x12_genshinimpactbar.mdl")
+	weapon.HoldType = "Rifle"
 end
