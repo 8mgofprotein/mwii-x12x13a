@@ -2,9 +2,9 @@
 //https://developer.valvesoftware.com/wiki/$phong
 "VertexLitGeneric"
 {
-    "$basetexture" "models\kyo\mwii\golf17\xmaterial_65cdac30847e4f09_rgb"
-    "$bumpmap" "models\kyo\mwii\golf17\xmaterial_65cdac30847e4f09_n"
-    "$phongexponenttexture" "models\kyo\mwii\golf17\xmaterial_65cdac30847e4f09_e"
+    "$basetexture" "models\kyo\mwii\golf18\ximage_65cdb230847e593b_rgb"
+    "$bumpmap" "models\kyo\mwii\golf18\ximage_65cdb230847e593b_n"
+    "$phongexponenttexture" "models\kyo\mwii\golf18\ximage_65cdb230847e593b_e"
 
     "$color2" "[0 0 0]"
     "$blendtintbybasealpha" "1"

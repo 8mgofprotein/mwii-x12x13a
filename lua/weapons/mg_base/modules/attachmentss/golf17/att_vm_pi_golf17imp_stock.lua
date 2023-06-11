@@ -1,11 +1,11 @@
 ATTACHMENT.Base = "att_barrel"
-ATTACHMENT.Name = "Impact Point Barrel"
+ATTACHMENT.Name = "Impact Point"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_genshinimpactbar.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/golf21/icon_attachment_pi_golf21_stock.vmt")
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
-	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(1.25, 1.2, 0)
+	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(1.66, 0, -0.15)
     weapon.ViewModelOffsets.Idle.Pos = Vector(0, 1.2, -0.1)
 	weapon.ViewModelOffsets.Sprint.Pos = weapon.ViewModelOffsets.Sprint.Pos + Vector(-2, -1, -1)
     weapon.Zoom.Blur.EyeFocusDistance = 10

@@ -21,11 +21,9 @@ end
 
 SWEP.Customization = {
 
-	{"att_vm_pi_golf18def", "att_vm_pi_golf18imp_stock"},
-
     {"att_perk", "att_vm_pi_golf17_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_fastswap",},
 
-    {"att_stock", "att_vm_pi_golf18skel_stock"},
+    {"att_stock", "att_vm_pi_golf18skel_stock", "att_vm_pi_golf18_stocklight"},
 
     {"att_receiver"},
 	
@@ -34,7 +32,7 @@ SWEP.Customization = {
 
     {"att_sight", "att_vm_minireddot01", "att_vm_minireddot02", "att_vm_minireddot03"},
 
-    {"att_vm_pi_golf17_slide","att_vm_pi_golf17_slide_long","att_vm_pi_golf17_slide_light"},
+    {"att_vm_pi_golf18_slide","att_vm_pi_golf18_slide_long","att_vm_pi_golf18_slide_light", "att_vm_pi_golf18imp_stock"},
 
     {"att_vm_pi_golf17_mag", "att_vm_pi_golf17_mag_xmags", "att_vm_pi_golf17_mag_xmagslrg", "att_vm_pi_golf17_mag_drummag",},
 
