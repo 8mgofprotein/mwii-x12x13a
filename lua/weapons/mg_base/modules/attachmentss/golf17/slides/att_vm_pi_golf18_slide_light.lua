@@ -9,4 +9,5 @@ function ATTACHMENT:Stats(weapon)
 
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 1.1
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 1.1
+	weapon.Primary.RPM = weapon.Primary.RPM + 100
 end 
