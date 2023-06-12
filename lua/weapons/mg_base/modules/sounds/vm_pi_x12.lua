@@ -214,7 +214,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_07",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 6,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -347,7 +347,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_10",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 9,
 	
 	volume = 1,
 	pitch = {100,100},
