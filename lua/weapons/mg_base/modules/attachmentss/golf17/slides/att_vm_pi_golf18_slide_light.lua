@@ -6,6 +6,6 @@ local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
 
-    weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.92
-    weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.92
+    weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 1.1
+    weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 1.1
 end 

@@ -25,10 +25,10 @@ SWEP.Customization = {
 
     {"att_perk", "att_vm_pi_golf17_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_fastswap",},
 
-    {"att_stock", "att_vm_pi_golf17skel_stock", "att_vm_pi_golf18_stocklight"},
+    {"att_stock", "att_vm_pi_golf17skel_stock", "att_vm_pi_golf18_stocklight", "att_vm_pi_golf18_stockhvy", "att_vm_pi_golf18_stocktac"},
 
-    {"att_receiver"},
-	
+	{"att_receiver"},
+
     {"att_muzzle", "attachment_vm_pi_papa320_silencer", "att_vm_flashhider01_pstl", "att_vm_compensator01_pstl", "att_vm_muzzlebrake01_pstl",
     "att_vm_silencer01_pstl", "att_vm_silencer02_pstl", "att_vm_silencer04_pstl", "att_vm_oil_filter_suppressor"},
 
@@ -40,7 +40,11 @@ SWEP.Customization = {
 
     {"att_laser", "att_vm_laser01_pstl", "att_vm_laser02_pstl", "att_vm_laser03_pstl"},
 	
-	{"att_grip", "att_vm_angledgrip01_glock"}
+	{"att_grip", "att_vm_angledgrip01_glock"},
+	
+	{"att_trigger_golf", "attachment_vm_pi_golf_hairtrigg", "attachment_vm_pi_golf_hvytrigg", "attachment_vm_pi_golf_lighttrigg", },
+	
+	{"att_reargrip_golf", "attachment_vm_pi_golf_pgripass", "attachment_vm_pi_golf_pgripstdy", "attachment_vm_pi_golf_pistgriptac", },
 }
 
 --NECESSARY: it loads custom attachments from other authors

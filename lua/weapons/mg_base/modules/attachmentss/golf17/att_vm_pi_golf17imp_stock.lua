@@ -26,7 +26,6 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.9
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.85
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.85
-    weapon.Recoil.AdsMultiplier = weapon.Recoil.AdsMultiplier * 0.5
 	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0.41, 0, -0.185)
 end
 

@@ -1,5 +1,5 @@
 ATTACHMENT.Base = "att_barrel"
-ATTACHMENT.Name = "Singuard Arms Advantage"
+ATTACHMENT.Name = "XRX Sidewinder-6 Slide"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_bartac.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/golf21/icon_attachment_pi_golf21_slide_long.vmt")
 
