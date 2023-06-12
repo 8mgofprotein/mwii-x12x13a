@@ -6,13 +6,15 @@
     "$bumpmap" "models\kyo\mwii\golf17\xmaterial_3c99fbcea1e0e9d4_n"
     "$phongexponenttexture" "models\kyo\mwii\golf17\xmaterial_3c99fbcea1e0e9d4_e"
 
-    "$color2" "[.4 .4 .4]"
+    "$color2" "[.2 .2 .2]"
     "$blendtintbybasealpha" "1"
 
     "$phong" "1"
-    "$phongboost" "6"
+    "$phongboost" "1"
+    "$phongexponent" "6"
     "$phongfresnelranges" "[1 0.5 0]"
-    "$phongalbedotint" "1"
+    "$phongtint" "[1 0.6 0.2]"
+    "$phongalbedotint" "0"
 
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"
@@ -30,6 +32,8 @@
     {
         "MwEnvMapTint"
         {
+            "color"    "[1.525 0.65 0.1525]"
+            "envmap"    "viper/shared/envmaps/painted_silver.hdr"
             "specularity" "0.5"             //0.25, 0.5, 0.75, 1
             "min" "0"
             "max" "0.2"                       //change this if too bright in game
