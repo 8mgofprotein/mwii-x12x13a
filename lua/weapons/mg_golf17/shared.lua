@@ -19,7 +19,7 @@ SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Pistols"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/kyo/vm_pi_x12.mdl")
-SWEP.WorldModel = Model("models/kyo/wm_pl_p220.mdl")
+SWEP.WorldModel = Model("models/kyo/wm_pi_x12.mdl")
 SWEP.Trigger = {
     PressedSound = Sound("weap_golf17_fire_first_plr"),
     ReleasedSound = Sound("weap_golf17_disconnector_plr"),
@@ -122,8 +122,8 @@ SWEP.Zoom = {
 
 SWEP.WorldModelOffsets = {
     Bone = "tag_pistol_offset",
-    Angles = Angle(0, 90, -90),
-    Pos = Vector(4, -3, -3)
+    Angles = Angle(180, 90, 0),
+    Pos = Vector(-4, 8, -60)
 }
 
 SWEP.ViewModelOffsets = {

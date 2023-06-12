@@ -2,7 +2,8 @@
 ATTACHMENT.Base = "att_vm_pi_golf21_slide"
 ATTACHMENT.Name = "XRX LUC-9"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_barlight.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/golf21/icon_attachment_pi_golf21_slide_v2.vmt")
+ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_barlight.vmt")
+
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)

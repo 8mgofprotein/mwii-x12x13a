@@ -1,7 +1,8 @@
 ATTACHMENT.Base = "att_reargrip_golf"
 ATTACHMENT.Name = "CRONEN LIMA-6"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_gripass.mdl")
-ATTACHMENT.Icon = Material("models/kyo/icon/golf17/icon_gripass.vmt")
+ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_gripass.vmt")
+
 ATTACHMENT.Bodygroups = {
     ["pgrip"] = 1
 }

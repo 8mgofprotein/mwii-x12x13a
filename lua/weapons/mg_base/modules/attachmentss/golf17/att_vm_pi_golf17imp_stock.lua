@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_conversion"
 ATTACHMENT.Name = "Impact Point"
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/golf21/icon_attachment_pi_golf21_stock.vmt")
+ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_impactpoint.vmt")
 ATTACHMENT.ExcludedAttachments = {"att_vm_pi_golf17skel_stock"}
 ATTACHMENT.ExcludedCategories = {"Barrels"}
 ATTACHMENT.Conversion = {
@@ -32,5 +32,7 @@ end
 function ATTACHMENT:PostProcess(weapon)
     BaseClass.PostProcess(self, weapon)
     weapon:SetViewModel("models/kyo/vm_pi_x12_genshinimpactbar.mdl")
+	weapon.WorldModel = Model("models/kyo/wm_pi_x12_impbar.mdl")
+	weapon.WorldModelOffsets.Pos = weapon.WorldModelOffsets.Pos + Vector(-1, 1, -1)
 	weapon.HoldType = "Rifle"
 end

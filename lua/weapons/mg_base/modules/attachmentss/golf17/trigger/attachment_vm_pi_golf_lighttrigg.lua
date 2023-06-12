@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_trigger_golf"
 ATTACHMENT.Name = "XRK TR9 Trigger"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_triglight.mdl")
-ATTACHMENT.Icon = Material("models/kyo/icon/golf17/icon_hvytrig.vmt")
+ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_triglight.vmt")
 ATTACHMENT.Bodygroups = {
     ["trig"] = 1
 }

@@ -8,8 +8,8 @@ include("animations.lua")
 include("customization.lua")
 
 if CLIENT then
-    killicon.Add( "mg_golf17", "VGUI/entities/mg_golf17", Color(255, 0, 0, 255))
-    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_golf17_icon")
+    killicon.Add( "mg_golf18", "VGUI/entities/mg_golf18", Color(255, 0, 0, 255))
+    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_golf18_icon")
 end
 
 SWEP.Base = "mg_base"
@@ -19,7 +19,7 @@ SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Pistols"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/kyo/vm_pi_x13a.mdl")
-SWEP.WorldModel = Model("models/kyo/wm_pl_p220.mdl")
+SWEP.WorldModel = Model("models/kyo/wm_pi_x13.mdl")
 SWEP.Trigger = {
     PressedSound = Sound("weap_golf17_fire_first_plr"),
     ReleasedSound = Sound("weap_golf17_disconnector_plr"),
@@ -63,7 +63,7 @@ SWEP.Reverb = {
 
 SWEP.Firemodes = {
     [1] = {
-        Name = "Semi Auto",
+        Name = "Full Auto",
         OnSet = function()
             return nil
         end
@@ -97,7 +97,7 @@ SWEP.Recoil = {
 }
 
 SWEP.Bullet = {
-    Damage = {29, 19}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
+    Damage = {23, 19}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
     DropOffStartRange = 10,
     EffectiveRange = 28, --in meters, damage scales within this distance
     Range = 100, --in meters, after this distance the bullet stops existing
@@ -122,8 +122,8 @@ SWEP.Zoom = {
 
 SWEP.WorldModelOffsets = {
     Bone = "tag_pistol_offset",
-    Angles = Angle(0, 90, -90),
-    Pos = Vector(4, -3, -3)
+    Angles = Angle(180, 90, 0),
+    Pos = Vector(-4, 8, -60)
 }
 
 SWEP.ViewModelOffsets = {

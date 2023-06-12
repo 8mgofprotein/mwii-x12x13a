@@ -1,7 +1,8 @@
 ATTACHMENT.Base = "att_reargrip_golf"
 ATTACHMENT.Name = "FTAC OL-Z Grip"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_griptac.mdl")
-ATTACHMENT.Icon = Material("models/kyo/icon/golf17/icon_griptac.vmt")
+ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_griptac.vmt")
+
 ATTACHMENT.Bodygroups = {
     ["pgrip"] = 1
 }

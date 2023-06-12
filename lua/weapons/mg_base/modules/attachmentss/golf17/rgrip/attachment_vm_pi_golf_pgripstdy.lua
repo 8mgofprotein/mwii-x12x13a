@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_reargrip_golf"
 ATTACHMENT.Name = "XRK Field Grip"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_gripstdy.mdl")
-ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_gripstdy.vmt")
+ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_gripstd.vmt")
 
 ATTACHMENT.Bodygroups = {
     ["pgrip"] = 1

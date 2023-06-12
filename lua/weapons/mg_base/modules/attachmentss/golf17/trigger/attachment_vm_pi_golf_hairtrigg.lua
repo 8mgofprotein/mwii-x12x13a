@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_trigger_golf"
 ATTACHMENT.Name = "XRK Lightning Fire"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_trighair.mdl")
-ATTACHMENT.Icon = Material("models/kyo/icon/golf17/icon_hairtrig.vmt")
+ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_trighair.vmt")
 ATTACHMENT.Bodygroups = {
     ["trig"] = 1
 }
