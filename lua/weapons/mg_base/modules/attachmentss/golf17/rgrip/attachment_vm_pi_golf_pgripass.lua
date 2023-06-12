@@ -1,5 +1,5 @@
 ATTACHMENT.Base = "att_reargrip_golf"
-ATTACHMENT.Name = "CRONEN LIMA-6"
+ATTACHMENT.Name = "FTAC OL-Z Grip"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_gripass.mdl")
 ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_gripass.vmt")
 
